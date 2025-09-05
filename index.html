@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Movie Seat Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>🎬 Movie Seat Booking</h2>
+
+    <input id="username" placeholder="Enter Name" />
+    <input id="seatNumber" type="number" placeholder="Enter Seat Number" />
+    <button onclick="addBooking()">Add</button>
+
+    <h3>Total Booked: <span id="totalCount">0</span></h3>
+
+    <h3>Bookings:</h3>
+    <div id="bookingList"></div>
+
+    <h3>🔍 Search Seat</h3>
+    <input id="searchSeat" placeholder="Enter Seat Number" />
+    <button onclick="searchSeat()">Search</button>
+    <div id="searchResult"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
